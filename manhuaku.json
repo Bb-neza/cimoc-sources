@@ -1,0 +1,22 @@
+{
+  "id": "1000001",
+  "name": "漫画库自制",
+  "baseUrl": "https://www.manhuaku.cn",
+  "imageBaseUrl": "https://us1.manhuaku.cn",
+  "search": {
+    "url": "/search?query=%s",
+    "list": ".catalog.grid .book",
+    "title": "h3",
+    "link": "a.book@href",
+    "cover": ".thumb@style"
+  },
+  "chapter": {
+    "list": "#chapterList a",
+    "title": "a",
+    "link": "a@href"
+  },
+  "image": {
+    "list": ".page-img img",
+    "url": "@data-src"
+  }
+}
