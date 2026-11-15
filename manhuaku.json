@@ -1,22 +1,17 @@
-{
-  "id": "1000001",
-  "name": "漫画库自制",
+"MANHUAKU": {
   "baseUrl": "https://www.manhuaku.cn",
-  "imageBaseUrl": "https://us1.manhuaku.cn",
-  "search": {
-    "url": "/search?query=%s",
-    "list": ".catalog.grid .book",
-    "title": "h3",
-    "link": "a.book@href",
-    "cover": ".thumb@style"
-  },
-  "chapter": {
-    "list": "#chapterList a",
-    "title": "a",
-    "link": "a@href"
-  },
-  "image": {
-    "list": ".page-img img",
-    "url": "@data-src"
-  }
+
+  "search": "/search?query=%s",
+  "searchInfoList": ".catalog.grid .book",
+  "searchInfoCid": "a.book",
+  "searchInfoTitle": "h3",
+  "searchInfoCover": ".thumb",
+
+  "parseInfoTitle": "h1",
+  "parseChapterList1": "#chapterList a",
+  "parseChapterPath": "a",
+  "parseChapterTitle": "a",
+
+  "parseImageList": ".page-img img",
+  "parseImageUrl": "@data-src"
 }
