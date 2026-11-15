@@ -898,5 +898,22 @@
 		"serverCode2": "/api/v3/search/comic",
 		"serverCodeversion": "2025.11.21"
 	},
+	"MANHUAKU": {
+        "baseUrl": "https://www.manhuaku.cn",
+
+        "search": "/search?query=%s",
+        "searchInfoList": ".catalog.grid .book",
+        "searchInfoCid": "a.book",
+        "searchInfoTitle": "h3",
+        "searchInfoCover": ".thumb",
+
+        "parseInfoTitle": "h1",
+        "parseChapterList1": "#chapterList a",
+        "parseChapterPath": "a",
+        "parseChapterTitle": "a",
+
+        "parseImageList": ".page-img img",
+        "parseImageUrl": "@data-src"
+	},
     "backup_update":"https://haleytesla.top/cimoc/sourceBaseUrl.json",
     "update_backup_my":"https://raw.githubusercontent.com/haleydu-test/cimocUpdate/main/sourceBaseUrl.json"}
